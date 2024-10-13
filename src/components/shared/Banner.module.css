@@ -1,0 +1,15 @@
+.banner_container{
+    background: url("../../assets/banner-img.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+    .banner_container {
+        height: 57vh;
+        margin-bottom: -110px;
+    }
+}
